@@ -15,7 +15,9 @@ public class Main {
     private static final int SERVER_PORT = 23456;
 
     public static void main(String[] args) throws IOException {
-        String msg;
+        String msg = "-in testSet.json";
+        args = msg.split(" ");
+        //String msg;
         if (args[0].equals("-in")) {
             String folder = "/Users/apexey/Desktop/Java/Stepik/Spring/JSON Database/JSON Database/task/src/client/data/";
             msg = new String(Files.readAllBytes(Paths.get(folder + args[1])));
