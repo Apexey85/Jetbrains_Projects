@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JSON_Database-task">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/JSON_Database-task.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
