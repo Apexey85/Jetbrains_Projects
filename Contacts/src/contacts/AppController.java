@@ -121,7 +121,10 @@ public class AppController {
         Matcher number = numberMatcher.matcher(phoneNumber);
         if (number.matches()){
             return phoneNumber;
-        } else return "[no number]";
+        } else {
+            System.out.println("Wrong number format!");
+            return "[no number]";
+        }
 
     }
 
